@@ -42,3 +42,6 @@ seguinte será maior ou menor que o do dia atual
 ## Autores
 
 - **Pedro Lopes de Lucena** - RM 367572
+- **Guilherme Nascimento** - RM 367283
+- **Jonas Sena Silva** - RM 367569
+- **Rafael Santos** - RM 368581
