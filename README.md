@@ -23,13 +23,17 @@ de decisão dos analistas quantitativos da empresa.
 Os dados devem ser extraídos do https://br.investing.com/indices/bovespa-historical-data
 
 Criar um modelo que preveja se o fechamento do IBOVESPA do dia
-seguinte será maior ou menor que o do dia atual
+seguinte será maior ou menor que o do dia atual, ou seja, se o valor fechará em Alta (1) ou Queda (0).
+
+Seu modelo deve prever a tendência (↑ ou ↓) com acuracidade mínima de 75% em um conjunto de teste. 
+O conjunto de testes deverá conter o último mês (30 dias) de dados disponíveis.
 
 ## Arquivos no Repositório
 
 - `previsao_ibovespa.ipynb`: Notebook com todo o processo de análise e criação dos modelos utilizados para previsão do Ibovespa.
-- `dados_ibovespa`: Base de dados extraída do site oficial que será utilizada para alimentar os modelos desenvolvidos.
-  
+- `dados_ibovespa.csv`: Base de dados extraída do site oficial que será utilizada para alimentar os modelos desenvolvidos.
+- `requirements.txt`: Arquivo de texto com as bibliotecas necessárias para executar o código.
+
 ## Ferramentas e Tecnologias Utilizadas
 
 - **Python**: Linguagem de programação principal utilizada no projeto.
